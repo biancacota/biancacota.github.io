@@ -1,0 +1,119 @@
+body{
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 25px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #F4F4F4;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	padding-top: 30px;
+	min-height: 70px;
+	background-color: #373737;
+}
+
+header a{
+	color: #C0B283;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Unica One', cursive;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header nav{
+	float: right;
+}
+
+header a:hover{
+	text-decoration: underline;
+	color:  #DCD0C0;
+}
+
+#showcase{
+	background-image: linear-gradient(to top, #F4F4F4, #DCD0C0);
+}
+
+#showcase h1{
+	text-align: center;
+	color: #373737;
+	font-size: 100px;
+	font-family: 'Unica One', cursive;
+	text-shadow: 5px 5px 5px #C0B283;
+}
+
+#showcase p{
+	text-align: center;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+#aboutme-section h2{
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+}
+
+#aboutme-section p{
+	text-align: right;
+	margin-left: 650px;
+    margin-right: 100px;
+}
+
+#aboutme-section{
+	padding: 100px 0 400px 0; 
+	background: url("../images/headshot.jpg");
+	opacity: 0.5;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#projects-section{
+	padding: 50px 0 200px 0;
+	text-align: center;
+}
+
+#projects-section h2{
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+}
+
+#projects-section h3{
+	font-weight: bold;
+	font-size: 35px;
+}
+
+#contact-section{
+	background-image: linear-gradient(to bottom, #F4F4F4, #C0B283);
+	padding: 50px 0 200px 0;
+	text-align: center;
+}
+
+#contact-section h2{
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#contact-section img{
+	width: 50px;
+	height: 50px;
+	padding: 25px 20px 25px 20px;
+}
